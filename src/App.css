@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* App component styles */
+.App {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+/* Button styles */
+.button-container {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Payslip component styles */
+.main_con {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.Payslip table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.Payslip th, .Payslip td {
+  padding: 8px;
+  text-align: left;
+}
+
+/* Down component styles */
+.Down {
+  margin-top: 20px;
+}
+
+.Down button {
+  background-color: #17a2b8;
+}
+
+.Down button:hover {
+  background-color: #117a8b;
+}
+
+.img-logo img{
+  width: 50px;
+  margin-top: 10px;
+  margin-right: 20px;
+
+}
+.img-logo{
+  margin-top: -50px;
+}
+.flex_box{
+  display: flex;
+}
+.flex_box div{
+  width: 100%;
+}
+.width{
+  width: 50%;
+}
+#company_name p{
+  width: 200%;
+}
